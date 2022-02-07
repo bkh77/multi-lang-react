@@ -17,15 +17,34 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+  font-size: calc(8px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+
+section {
+  padding: 4rem;
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.selected{
+  color: #61dafb;
+  font-weight: bold;
+  
 }
 
 @keyframes App-logo-spin {
